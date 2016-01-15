@@ -20,7 +20,6 @@ Learn how to create a blog REST api using java and spring.
 
 ## Model
 ### Create Representation Class
-Create a class to represent a blog post, this part is the "model" of MVC.
 ```
 src/main/java/learn/java/Post.java
 ```
