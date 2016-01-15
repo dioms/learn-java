@@ -47,6 +47,9 @@ public class Post {
 }
 ```
 
+### Create DAO
+TODO
+
 ## Controller
 ### Create a Controller
 This part is the "controller" of MVC.
