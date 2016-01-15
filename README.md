@@ -18,6 +18,7 @@ Learn how to create a website using java and spring.
 - [Read this](http://www.tomdalling.com/blog/software-design/model-view-controller-explained/)
 - [Read this](http://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488)
 
+## Model
 ### Create Representation Class
 Create a class to represent a blog post, this part is the "model" of MVC.
 ```
@@ -46,6 +47,7 @@ public class Post {
 }
 ```
 
+## Controller
 ### Create a Controller
 This part is the "controller" of MVC.
 ```
