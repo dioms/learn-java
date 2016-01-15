@@ -16,7 +16,7 @@ Learn how to create a website using java and spring.
 ### Create Representation Class
 Create a class to represent a blog post
 ```src/main/java/learn/java/Post.java```
-```
+```java
 package learn.java;
 
 public class Post {
