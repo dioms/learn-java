@@ -40,3 +40,43 @@ public class Post {
     }
 }
 ```
+
+### Create a Controller
+```
+src/main/java/learn/java/PostController.java
+```
+```java
+package learn.java;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PostController {
+
+    @RequestMapping("value = /posts", method = RequestMethod.POST)
+    public Post post(@RequestParam String title, @RequestParam String content) {
+        return new Post(title, content);
+    }
+}
+```
+
+### Make the app executable
+```
+src/main/java/learn/java/Application.java
+```
+```java
+package learn.java;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+}
+```
