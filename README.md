@@ -1,5 +1,5 @@
 # learn-java
-Learn how to create a website using java and spring.
+Learn how to create a blog REST api using java and spring.
 [Using this guide](https://spring.io/guides/gs/rest-service/)
 ## Creating the Backend
 - Install Git
