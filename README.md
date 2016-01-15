@@ -13,8 +13,13 @@ Learn how to create a website using java and spring.
 2. Open the project in Eclipse
 3. Run maven install
 
+
+### Learn about MVC
+[Read this](http://www.tomdalling.com/blog/software-design/model-view-controller-explained/)
+[Read this](http://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488)
+
 ### Create Representation Class
-Create a class to represent a blog post
+Create a class to represent a blog post, this part is the "model" of MVC.
 ```
 src/main/java/learn/java/Post.java
 ```
@@ -42,6 +47,7 @@ public class Post {
 ```
 
 ### Create a Controller
+This part is the "controller" of MVC.
 ```
 src/main/java/learn/java/PostController.java
 ```
