@@ -2,13 +2,15 @@
 Learn how to create a website using java and spring.
 [Using this guide](https://spring.io/guides/gs/rest-service/)
 ## Creating the Backend
-- Install Git
-- Install Java 8
-- Install Maven 3
-- Install Eclipse
+- Create a [free heroku account](https://signup.heroku.com/)
+- Install [heroku toolbelt](https://toolbelt.heroku.com/)
+Run:
 
-### Getting Started
-1. First, clone the repo
-```git clone https://github.com/dioms/learn-java.git```
-2. Open the project in Eclipse
-3. Run maven install
+``` heroku login
+Enter your Heroku credentials.
+Email: java@example.com
+Password:
+Could not find an existing public key.
+Would you like to generate one? [Yn]
+Generating new SSH public key.
+Uploading ssh public key /Users/java/.ssh/id_rsa.pub```
