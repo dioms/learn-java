@@ -1,6 +1,5 @@
 # learn-java
 Learn how to create a website using java and spring.
-[Using this guide](https://spring.io/guides/gs/rest-service/)
 
 ### Getting Started
 - Install Git
