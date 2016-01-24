@@ -2,8 +2,8 @@
 Learn how to create a website using java and spring.
 
 ### Getting Started
-- Install Git
-- Install Eclipse, probably want "Eclipse IDE for Java Developers"
+- Install Git [download](https://git-scm.com/downloads)
+- Install Eclipse, probably want [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/mars1)
 - Clone repo ```git clone https://github.com/dioms/spring-boot-heroku-demo.git```
 - In eclipse, File > Import > Existing Maven Projects > Browse to downloaded directory and click Finish
 - Open project folder, right click on pom.xml "Run As" > "Maven Install"
