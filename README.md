@@ -13,5 +13,7 @@ Learn how to create a website using java and spring.
 Download sample app: ```git clone```
 
 ```$ git init```
+
 ```$ git add .```
+
 ```$ git commit -m "first commit"```
